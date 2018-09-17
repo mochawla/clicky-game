@@ -1,0 +1,30 @@
+
+  .card {
+    background: white;
+    height: 275px;
+    margin: 35px;
+    position: relative;
+    width: 275px;
+    box-shadow: 0 2px 4px grey, 0 2px 4px grey;
+    
+  }
+  
+  .card > .img-container {
+    overflow: hidden;
+  }
+
+  .card:hover {
+    border: 5px solid darkred;
+    cursor: pointer;
+  }
+    
+
+ 
+  
+
+  
+
+  
+
+  
+ 
