@@ -7,12 +7,11 @@ const Navbar = props => (
      <h1 className = "title">
     {props.title}
     </h1>  
-    <ul className="navbar-nav  justify-content-end text-uppercase">
-    <li className="nav-item" id="rw">{props.rightWrong}</li>
-    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
-      <li className="nav-item" id="cur-sco">Current Score {props.score}</li>
-      &#160;|&#160;
-      <li className="nav-item" id="top-sco">Top Score {props.topScore}</li>
+    <ul className="navbar-nav  justify-content-end">
+     
+      <li className="nav-item" id="score">Score</li>  &#160;&#160;|&#160;&#160;
+
+     <li className="nav-item" id="top-score">Top Score</li>
     </ul>
      </nav>
     </div>

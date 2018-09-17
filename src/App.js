@@ -19,9 +19,6 @@ class App extends Component {
     <Wrapper>
     <Navbar
       title = "Clicky Game"
-      rightWrong={this.state.rightWrong}
-      score={this.state.currentScore}
-      topScore={this.state.topScore}
     />
     <Header>
     Click each Anime Character on the screen once to raise your score. Click one twice and you lose! 
